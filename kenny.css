@@ -1,0 +1,329 @@
+#kenny *
+{
+	position: absolute;
+}
+
+#kenny
+{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+
+#kenny .head
+{	
+	width: 135px;
+	height: 137px;
+	background: #f5881f;
+	top: 0;
+	bottom: 0; 
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+#kenny .head .hood-line
+{	
+	z-Index: 350;
+	top: 25px;
+	left: 17px;
+	z-Index: 250;
+	height: 95px;
+	width: 100px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border: 1px solid #9b704f;
+}
+
+#kenny .head .hood-string1
+{	
+	z-index: 450;
+	width: 18px;
+	height: 1px;
+	top:122px;
+	left: 54px;
+	background: #9b704f;
+	transform: rotate(110deg);
+}
+
+#kenny .head .hood-string2
+{	
+	z-index: 450;
+	width: 5px;
+	height: 1px;
+	top:115px;
+	left: 67px;
+	background: #9b704f;
+	transform: rotate(50deg);
+}
+
+#kenny .head .hood-string3
+{	
+	z-index: 450;
+	width: 16px;
+	height: 1px;
+	top:125px;
+	left: 64px;
+	background: #9b704f;
+	transform: rotate(75deg);
+}
+
+#kenny .head .hood-string4
+{	
+	z-index: 450;
+	width: 5px;
+	height: 1px;
+	top:133px;
+	left: 73px;
+	background: #9b704f;
+	transform: rotate(50deg);
+}
+
+#kenny .head .hood-bottom
+{
+	z-Index: 250;
+	top: 96px;
+	left: 43px;
+	width: 47px;
+	height: 18px;
+	border-radius: 50%;
+	box-shadow: 0px 7px 0 0 #f5881f;
+}
+
+#kenny .head .outer-hood
+{	
+	z-Index: 200;
+	top: 8px;
+	left: 0px;
+	z-Index: 250;
+	height: 97px;
+	width: 102px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border: 17px solid #f5881f;
+}
+
+
+#kenny .head .inner-face
+{	
+	left: 35px;
+	top: 35px;
+	height: 65px;
+	width: 65px;
+	border-radius: 80% 0% 55% 70% / 55% 0% 80% 0%;
+	-webkit-border-radius: 80% 0% 55% 70% / 55% 0% 80% 0%;
+	-moz-border-radius: 80% 0% 55% 70% / 55% 0% 80% 0%; 
+	background: #e8c7a1;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+}
+
+#kenny .head .face
+{	
+	z-Index: 200;
+	left: 23px;
+	top: 25px;
+	height: 60px;
+	width: 60px;
+	border-radius: 50% 0% 50% 50% / 50% 0% 50% 0%;
+	-webkit-border-radius: 50% 0% 50% 50% / 50% 0% 50% 0%;
+	-moz-border-radius: 50% 0% 50% 50% / 50% 0% 50% 0%;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	background: none;
+	border: 14px solid #9b704f;
+}
+
+#kenny .head .left-eye
+{	
+	left: 29px;
+	bottom: 46px;
+	width: 36px;
+	height: 40px;
+	-webkit-border-radius: 42px/ 50px;
+	-moz-border-radius: 42px/ 50px;
+	-webkit-transform: rotate(35deg);
+	-moz-transform: rotate(35deg);
+	background: #e7e8e8;
+	border: 1px solid #cfcfcf
+}
+
+#kenny .head .left-eye .left-eye-pupil
+{	
+	top: 13px;
+	left: 26px;
+	width: 4px;
+	height: 4px;
+	background: #000000;
+	-webkit-border-radius: 50% ;
+	-moz-border-radius: 50%;
+	border-radius:50%;
+	
+	animation-name: kennyleftpupil;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	-webkit-animation-name: kennyleftpupil;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;
+}
+
+#kenny .head .left-eye .left-eye-pupil2
+{	
+	top: 11px;
+	left: 24px;
+	width: 4px;
+	height: 4px;
+	-webkit-border-radius: 50% ;
+	-moz-border-radius: 50%;
+	border-radius:50%;
+	border: 2px solid #e7e8e8;
+	
+	animation-name: kennyleftpupil2;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	-webkit-animation-name: kennyleftpupil2;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;
+}
+
+#kenny .head .right-eye
+{	
+	right: 29px;
+	bottom: 44px;
+	width: 36px;
+	height: 42px;
+	-webkit-border-radius: 42px/ 50px;
+	-moz-border-radius: 42px/ 50px;
+	-webkit-transform: rotate(325deg);
+	-moz-transform: rotate(325deg);
+	background: #e7e8e8;
+	border: 1px solid #cfcfcf;
+}
+
+#kenny .head .right-eye .right-eye-pupil
+{	
+	top: 13px;
+	right: 26px;
+	width: 4px;
+	height: 4px;
+	background: #000000;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	
+	animation-name: kennyrightpupil;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	-webkit-animation-name: kennyrightpupil;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;
+}
+
+#kenny .head .right-eye .right-eye-pupil2
+{	
+	top: 11px;
+	right: 24px;
+	width: 4px;
+	height: 4px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border: 2px solid #e7e8e8;
+	
+	animation-name: kennyrightpupil2;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	-webkit-animation-name: kennyrightpupil2;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;
+}
+
+@-webkit-keyframes kennyrightpupil
+{
+	0%  {background: black;}
+    50%  {background: #e7e8e8;}
+    100%  {background: black;}
+}
+
+@keyframes kennyrightpupil
+{
+	0%  {background: black;}
+    50%  {background: #e7e8e8;}
+    100%  {background: black;}
+}
+
+@-webkit-keyframes kennyrightpupil2
+{
+	0%  {border: 2px solid #e7e8e8;}
+    50%  {border: 2px solid black;}
+    100%  {border: 2px solid #e7e8e8;}
+}
+
+@keyframes kennyrightpupil2
+{
+	0%  {border: 2px solid #e7e8e8;}
+    50%  {border: 2px solid black;}
+    100%  {border: 2px solid #e7e8e8;}
+}
+
+@-webkit-keyframes kennyleftpupil
+{
+	0%  {background: black;}
+    50%  {background: #e7e8e8;}
+    100%  {background: black;}
+}
+
+@-webkit-keyframes kennyleftpupil2
+{
+	0%  {border: 2px solid #e7e8e8;}
+    50%  {border: 2px solid black;}
+    100%  {border: 2px solid #e7e8e8;}
+}
+
+@-webkit-keyframes kennyleftpupil2
+{
+	0%  {border: 2px solid #e7e8e8;}
+    50%  {border: 2px solid black;}
+    100%  {border: 2px solid #e7e8e8;}
+}
+
+@keyframes kennyleftpupil2
+{
+	0%  {border: 2px solid #e7e8e8;}
+    50%  {border: 2px solid black;}
+    100%  {border: 2px solid #e7e8e8;}
+}
