@@ -15,7 +15,7 @@
 {	
 	width: 135px;
 	height: 137px;
-	background: #e8c7a1;
+	background: #ffdbb5;
 	top: 0;
 	bottom: 0; 
 	left: 0;
@@ -94,7 +94,7 @@
 	top:55px;
 	height: 5px;
 	width:102px;
-	background: #e8c7a1;
+	background: #ffdbb5;
 	border-top-left-radius: 90%;
 	border-top-right-radius: 90%;
 	-webkit-border-top-left-radius: 90%;
@@ -229,7 +229,7 @@
     -webkit-border-radius: 45%;
     -moz-border-radius: 45%;
 	border-radius: 45%;
-	background: #e8c7a1;
+	background: #ffdbb5;
 	
 	animation-name: kylemouth;
 	animation-duration: 10s;
